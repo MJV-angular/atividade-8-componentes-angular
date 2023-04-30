@@ -1,0 +1,23 @@
+<app-form-container>
+  <h2>Cadastro</h2>
+  <ng-container *ngFor="let ele of dataForm">
+    <ng-container
+      *ngTemplateOutlet="
+        inputfield;
+        context: {
+          $implicit: ele
+        }
+      "
+    >
+      <app-input-field />
+    </ng-container>
+  </ng-container>
+  <app-button (onClick)="alertMessage('formulário')"></app-button>
+</app-form-container>
+
+<ng-template #inputfield let-default>
+  <div class="inputfield">
+    <label for="{{ default.id }}">{{ default.label }}</label>
+    <input type="{{ default.type }}"/>
+  </div>
+</ng-template>

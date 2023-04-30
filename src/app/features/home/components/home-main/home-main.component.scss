@@ -1,0 +1,24 @@
+.inputfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    margin-top: 0.625rem;
+    padding: 0.625rem 0.9375rem;
+    outline: none;
+    border: 0.0625rem solid rgb(135, 148, 176);
+    border-radius: 0.5rem;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+  }
+}
+
+h2 {
+  color: var(--blue-color);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
