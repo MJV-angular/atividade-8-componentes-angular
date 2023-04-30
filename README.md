@@ -1,4 +1,4 @@
-#Criando Componentes dinamicamente
+# Criando Componentes dinamicamente
 
 A atividade da MJV School Angular tem como objetivo proporcionar aos alunos a prática e aplicação dos conceitos aprendidos utilizando a tecnologia Angular. Para isso, a atividade consiste em desenvolver:
 
@@ -6,6 +6,9 @@ A atividade da MJV School Angular tem como objetivo proporcionar aos alunos a pr
 - Criar um componente que utilize ng-content
 - Criar um componente que se possa customizar o template a partir de um input de TemplateRef
 - Criar um mixin e o utilize para adicionar comportamento a um dos componentes acima.
+
+![image](https://user-images.githubusercontent.com/100942719/235330126-e70dbe64-679d-425a-834f-691fff521b25.png)
+
 
 ## Instruções
 
